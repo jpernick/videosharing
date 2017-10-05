@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+<body background="/assets/beach.jpg">
+<h1>Joe Pernick Homework 4</h1>
+
+<table>
+  <thead>
+      <style>
+        background-image: url('/assets/images/beach.jpg');
+        
+        body {background-color: powderblue;}
+        h1   {color: blue; text-align:center; background-color:orange}
+        h2   {color: orange; text-align:center; background-color:blue}
+        h3   {color: orange; text-align:center; background-color:blue} 
+        h4   {color: green; text-align:center; background-color:red}
+        p    {color: red;}
+      </style>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <h2>List of The Users</h2>
+    <% @users.each do |user| %>
+    <h3><%= user.first_name %> <%= user.last_name %> </h3>
+    <% end %>
+    
+    
+    <h4>WHOOOOOOAAAA</h4>
+    
+    
+  
+  </tbody>
+</table>
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
